@@ -14,3 +14,7 @@ WHEN I click on the images of the applications
 THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
+
+View the website at: https://lyn7758.github.io/Personal-Portfolio/
+<img width="1438" alt="image" src="https://user-images.githubusercontent.com/91827133/217145183-f8075c81-dde7-4d1c-85d6-f19f2a3bf8ef.png">
+
