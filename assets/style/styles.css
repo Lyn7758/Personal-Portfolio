@@ -1,0 +1,162 @@
+/* Universal style */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a {
+    color: white;
+    text-shadow: 2px 2px 8px black;
+    text-decoration: none;
+}
+p {
+    font-size: 20px;
+}
+
+body {
+    background-color: #1b7a9f;;
+}
+
+/* Header style */
+.nav-bar{
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+.nav-bar li {
+    display: inline-block;
+    margin-left: 25px;
+}
+.hero-text {
+    text-align: center;
+    font-weight:bolder;
+    position: absolute;
+    font-size: 50px;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    color: white;    
+}
+.hero-image {
+    background-image: url("main-campus.jpeg"); /* The image used */
+    height: 800px;
+    width: 100%;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+/* main content styling */
+main {
+    width: 100%;
+    display: inline-block;
+}
+.Info {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left:10px;
+    margin-right:10px;
+    padding: 80px;
+    height: 750px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: skyblue;
+    color: #1b7a9f;
+    border-radius: 5%;
+}
+.Info h2 {
+    margin-bottom: 15px;
+    font-size: 70px;
+    margin-left: 50px;
+    position: relative;
+}
+.Info p {
+    font-size: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+
+  }
+/* Image styles */
+.lyn {
+    float: left;
+    margin-right: 25px;
+    border-radius: 50%;
+    height:400px;
+    width:550px;
+}
+.education {
+    float: right;
+    margin-left: 50px;
+    height: 400px;
+    width: 700px;
+}
+.research {
+    float:left;
+    margin-right: 50px;
+    height: 500px;
+    width: 400px;
+}
+.project1 {
+    height: 400px;
+    width: 600px;
+}
+.poker {
+    height: 400px;
+    width: 600px;
+}
+/* Footer Styles */
+footer ul{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer ul li {
+    display: inline-block;
+
+}
+footer h2 {
+    text-align: center;
+}
+.ion-icon-linkedin {
+    font-size: 100px;
+    color: black;
+    margin-right: 20px;
+}
+.ion-icon-linkedin:hover {
+    color: white;
+    transition-delay: 0.2s;
+    cursor:pointer;    
+}
+.ion-icon-github {
+    font-size:100px;
+    color: black;
+    margin-right: 20px;
+
+}
+.ion-icon-github:hover {
+    color: white;
+    cursor:pointer;
+}
+
+.ion-icon-instagram {
+    font-size: 100px;
+    color:black;
+}
+.ion-icon-instagram:hover {
+    color: white;
+    cursor:pointer;
+}
+
+@media screen and (max-width: 400px) {
+    body {
+      padding: 1rem 3rem;
+    }
+}
